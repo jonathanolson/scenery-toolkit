@@ -1,0 +1,30 @@
+{
+  "name": "scenery-toolkit",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "license": "GPL-3.0-or-later",
+  "author": "Jonathan Olson jonathan.olson@colorado.edu",
+  "repository": "https://github.com/jonathanolson/scenery-toolkit",
+  "description": "Toolkit of utilities for Scenery and SceneryStack",
+  "keywords": [
+    "Scenery",
+    "SceneryStack"
+  ],
+  "scripts": {
+    "build": "npx tsc"
+  },
+  "files": [
+    "dist",
+    "src"
+  ],
+  "exports": {
+    "import": "./dist/index.js"
+  },
+  "peerDependencies": {
+    "scenerystack": ">=0.0.31"
+  },
+  "devDependencies": {
+    "typescript": "~5.7.2"
+  }
+}

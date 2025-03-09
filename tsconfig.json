@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "target": "ESNext",
+    "rootDir": "./src",
+    "outDir": "./dist",
+    "sourceMap": true,
+    "declaration": true,
+    "declarationMap": true,
+
+    "allowUmdGlobalAccess": true,
+    "emitDeclarationOnly": false,
+    "isolatedModules": false,
+    "importHelpers": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "lib": ["es2023", "dom"]
+  },
+  "include": ["src/**/*"]
+}
