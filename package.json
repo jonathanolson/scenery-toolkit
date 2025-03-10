@@ -19,8 +19,13 @@
     "src"
   ],
   "exports": {
-    "import": "./dist/index.js"
+    ".": {
+      "development": "./dist/index.js",
+      "import": "./dist/index.js",
+      "default": "./dist/index.js"
+    }
   },
+
   "peerDependencies": {
     "scenerystack": ">=0.0.31"
   },
