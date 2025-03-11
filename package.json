@@ -27,7 +27,7 @@
   },
 
   "peerDependencies": {
-    "scenerystack": ">=0.0.31"
+    "scenerystack": ">=1.0.0"
   },
   "devDependencies": {
     "typescript": "~5.7.2"
